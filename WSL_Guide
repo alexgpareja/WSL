@@ -1,0 +1,18 @@
+<h1>Tutorial de com instalar WSL (Windows Subsystem for Linux)<h1>
+<h2> Pre-requeriments<h2>
+Per tal de completar tot el procediment amb èxit cal que el vostre sistema estigui executant...
+
+Windows 10 versió 1903 o posterior, amb compilació 18362.1049 o posterior (a sistemes x64);
+
+Windows 10 versió 2004 o posterior, amb compilació 19041 o posterior (a sistemes ARM64); o
+
+Windows 11
+
+Activar desde la bios el virtualitzation (vt-d).
+Per comprovar la versió i número de compilació, premeu la tecla del logotip de Windows + R, escriviu winver i premeu OK.
+
+<h2>Instal·lació<h2>
+Obriu PowerShell o Windows Command Prompt (línia de comandes de Windows) en mode d'administrador fent clic amb el botó dret i seleccionant "Executar com a administrador"
+Instal·leu WSL i quan us ho demani reinicieu el sistema
+wsl --install
+Si la instal·lació falla amb l'error 0x80070003 o l'error 0x80370102 assegureu-vos que la virtualització estigui activada dins de la BIOS/UEFI del vostre ordinador.
