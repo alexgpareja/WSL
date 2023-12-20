@@ -16,3 +16,7 @@ Obriu PowerShell o Windows Command Prompt (línia de comandes de Windows) en mod
 Instal·leu WSL i quan us ho demani reinicieu el sistema
 wsl --install
 Si la instal·lació falla amb l'error 0x80070003 o l'error 0x80370102 assegureu-vos que la virtualització estigui activada dins de la BIOS/UEFI del vostre ordinador.
+
+<h2>After installation<h2>
+Un cop completat el procés d'instal·lació obriu la distribució (Ubuntu per defecte) utilitzant el menú d'inici. Se us demanarà que creeu un nom d'usuari i una contrasenya per a la vostra distribució Linux.
+
